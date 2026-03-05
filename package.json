@@ -2,9 +2,9 @@
   "name": "mar-nebula",
   "displayName": "nebula",
   "description": "A color scheme composed of deep lavenders, magentas, and cornflower blues. The color theme is inspired by astrophotography of the Orion nebula, hence the \"nebula\" name.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.108.2"
   },
   "categories": [
     "Themes"
