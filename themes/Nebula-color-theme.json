@@ -1,25 +1,87 @@
 {
-  "name": "Untitled",
+  "name": "Nebula",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "enumMember": {
-      "foreground": "#fe2d76"
-    },
-    "variable.constant": {
+    "namespace": {
       "foreground": "#ffa6e0"
     },
-    "variable.defaultLibrary": {
+    "class": {
       "foreground": "#ffb821"
     },
-	"macro": {
-	  "foreground": "#ea6a2a"
-	},
-	"keyword.operator": {
-	  "foreground": "#fe2d76"
-	}
+    "enum": {
+      "foreground": "#ffb821"
+    },
+    "interface": {
+      "foreground": "#ffb821"
+    },
+    "struct": {
+      "foreground": "#ffb821"
+    },
+    "typeParameter": {
+      "foreground": "#ffb821"
+    },
+    "type": {
+      "foreground": "#ffb821"
+    },
+    "parameter": {
+      "foreground": "#ebe3ef"
+    },
+    "variable": {
+      "foreground": "#ebe3ef"
+    },
+    "property": {
+      "foreground": "#ebe3ef"
+    },
+    "enumMember": {
+      "foreground": "#ebe3ef"
+    },
+    "decorator": {
+      "foreground": "#fe2d76",
+    },
+    "event": {
+      "foreground": "#fe2d76",
+    },
+    "function": {
+      "foreground": "#fe2d76",
+    },
+    "method": {
+      "foreground": "#fe2d76",
+    },
+    "macro": {
+      "foreground": "#ea6a2a"
+    },
+    "label": {
+      "foreground": "#ea6a2a"
+    },
+    "comment": {
+      "foreground": "#7f98c9",
+      "fontStyle": "italic"
+    },
+    "string": {
+      "foreground": "#A6CEFF",
+    },
+    "keyword": {
+      "foreground": "#BC61FB",
+    },
+    "number": {
+      "foreground": "#ffa6e0"
+    },
+    "regexp": {
+      "foreground": "#ffa6e0"
+    },
+    "operator": {
+      "foreground": "#fe2d76"
+    }
   },
   "tokenColors": [
+    {
+      "name": "storage type",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#ffb821"
+      }
+    },
     {
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
@@ -516,7 +578,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#ebe3ef"
+        "foreground": "#fe2d76"
       }
     },
     {
@@ -1947,7 +2009,7 @@
     "editor.foreground": "#ebe3ef",
     "editorLineNumber.foreground": "#ffa6e0",
     "editorCursor.foreground": "#ffe0a3",
-    "editorCursor.background": "#ebe3ef",
+    "editorCursor.background": "#07162f",
     "editor.selectionBackground": "#3e5ba8",
     "editor.inactiveSelectionBackground": "#3e5ba89b",
     "editorWhitespace.foreground": "#ebe3ef3c",
@@ -2084,7 +2146,7 @@
     "merge.commonContentBackground": "#27213f",
     "editorSuggestWidget.background": "#483c73",
     "editorSuggestWidget.border": "#000000",
-    "editorSuggestWidget.foreground": "#a54646",
+    "editorSuggestWidget.foreground": "#ebe3ef",
     "editorSuggestWidget.highlightForeground": "#f1d6fc",
     "editorSuggestWidget.selectedBackground": "#7965c2",
     "editorHoverWidget.foreground": "#ebe3ef",
