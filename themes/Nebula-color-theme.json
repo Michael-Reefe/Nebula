@@ -394,6 +394,13 @@
       }
     },
     {
+      "name": "js function",
+      "scope": "storage.type.function.js",
+      "settings": {
+        "foreground": "#bc61fb"
+      }
+    },
+    {
       "name": "entity.name.type.module",
       "scope": "entity.name.type.module",
       "settings": {
@@ -536,7 +543,7 @@
       "name": "python type",
       "scope": "support.type.python",
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#ffb821"
       }
     },
     {
@@ -725,7 +732,7 @@
     },
     {
       "name": "Control Elements",
-      "scope": "control.elements, keyword.operator.less",
+      "scope": "control.elements",
       "settings": {
         "foreground": "#ffa6e0"
       }
@@ -1029,14 +1036,14 @@
       "name": "Regular Expressions",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#FFA6E0"
       }
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#ffa6e0"
       }
     },
     {
@@ -1258,16 +1265,23 @@
     },
     {
       "name": "python function decorator @",
-      "scope": "meta.function.decorator.python",
+      "scope": "meta.function.decorator.python,entity.name.function.decorator.python",
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#ea6a2a"
       }
     },
     {
       "name": "python function support",
       "scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#ea6a2a"
+      }
+    },
+    {
+      "name": "python function support",
+      "scope": "storage.type.function.python",
+      "settings": {
+        "foreground": "#bc61fb"
       }
     },
     {
@@ -1747,7 +1761,7 @@
         "keyword.control.xi"
       ],
       "settings": {
-        "foreground": "#fe2d76"
+        "foreground": "#EA6A2A"
       }
     },
     {
@@ -1756,7 +1770,7 @@
         "invalid.xi"
       ],
       "settings": {
-        "foreground": "#ebe3ef"
+        "foreground": "#ffa6e0"
       }
     },
     {
@@ -1810,7 +1824,7 @@
         "constant.other.color.rgb-value.xi"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#fe2d76"
       }
     },
     {
