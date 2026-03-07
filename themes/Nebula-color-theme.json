@@ -24,9 +24,9 @@
     "type": {
       "foreground": "#ffb821"
     },
-    "parameter": {
-      "foreground": "#ebe3ef"
-    },
+    // "parameter": {
+    //   "foreground": "#ebe3ef"
+    // },
     "variable": {
       "foreground": "#ebe3ef"
     },
@@ -76,10 +76,17 @@
   },
   "tokenColors": [
     {
-      "name": "storage type",
-      "scope": "storage.type",
+      "name": "fortran storage type",
+      "scope": "storage.type.integer.fortran,storage.type.real.fortran,storage.type.complex.fortran,storage.type.logical.fortran,storage.type.character.fortran",
       "settings": {
         "foreground": "#ffb821"
+      }
+    },
+    {
+      "name": "fortran operators",
+      "scope": "keyword.logical.fortran.modern",
+      "settings": {
+        "foreground": "#fe2d76"
       }
     },
     {
